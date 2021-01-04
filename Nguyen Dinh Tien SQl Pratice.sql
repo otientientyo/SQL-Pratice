@@ -1,10 +1,3 @@
-USE master
-GO
-
-IF EXISTS(SELECT * FROM sys.databases WHERE NAME = 'SellingPoint')
-	DROP DATABASE SellingPoint
-GO
-
 CREATE DATABASE SellingPoint
 GO
 
